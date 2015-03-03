@@ -6,7 +6,7 @@ module SVSChile
     module DailyStats
       class Downloader
         ALL = 0
-        URL = "http://www.svs.cl/sitio/estadisticas/fm.fm_bpr_dia.php?admins=0&tipofondo=0&moneda=0&dia_select=%d&mes_peri=%d&anio_peri=%d&out=excel"
+        URL = "http://www.svs.cl/sitio/estadisticas/fm.fm_bpr_dia.php?admins=0&tipofondo=0&moneda=0&dia_select=%02d&mes_peri=%02d&anio_peri=%d&out=excel"
         DEFAULTS = {
           admins: ALL,
           tipofondo: ALL,

@@ -7,6 +7,10 @@ module SVSChile
         def initialize(*args)
           super
 
+          # Cast integer values
+          self.type_number = self.type_number.to_int
+          self.members = self.members.to_int
+
           # Some quick validations to filter wrong stats
           raise InvalidStatsError, "Invalid value" if self.value.nil?
         end

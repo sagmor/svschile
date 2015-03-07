@@ -1,6 +1,6 @@
 # SVSChile
 
-Programatically access public data from http://www.svs.cl/
+Programmatically access public data from http://www.svs.cl/
 
 ## Usage
 
